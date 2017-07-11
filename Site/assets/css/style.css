@@ -41,6 +41,10 @@ iframe {
 	left: auto !important;
 }
 
+.skilldiv > svg {
+	margin-top: 30px;
+}
+
 /* Selection */
 
 ::-moz-selection {
