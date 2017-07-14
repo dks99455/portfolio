@@ -1,6 +1,6 @@
-$('a').click(function(){
+$('.navButton').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
-    }, 1500);
+    }, 750);
     return false;
 });
