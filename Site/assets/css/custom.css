@@ -1,4 +1,7 @@
-/* ------------------------------------------------------------------
-Project: Semantic
-Place here your custom CSS styles
------------------------------------------------------------------- */
+.skilldiv {
+    text-align: center;
+}
+
+.background-black{
+    background-color: lightgrey;
+}

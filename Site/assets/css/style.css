@@ -41,10 +41,6 @@ iframe {
 	left: auto !important;
 }
 
-.skilldiv > svg {
-	margin-top: 30px;
-}
-
 /* Selection */
 
 ::-moz-selection {
@@ -747,7 +743,7 @@ Sections
 }
 
 .module-subtitle {
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 	font-size: 12px;
 }
 
@@ -1378,6 +1374,10 @@ Responsive Media Querries
 
 	.align-right {
 		text-align: right;
+	}
+
+	.align-center{
+		text-align: center;
 	}
 
 	.navbar-transparent {
