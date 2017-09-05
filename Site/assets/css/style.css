@@ -1008,7 +1008,7 @@ Portfolio
 }
 
 .works-grid.works-hover-w .work-item:hover .work-image:after {
-	background: rgba(255, 255, 255, .8);
+	background: rgba(255, 255, 255, .9);
 }
 
 .works-grid.works-hover-g .work-image:after {
