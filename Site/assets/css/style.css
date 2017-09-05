@@ -951,6 +951,7 @@ Portfolio
 	left: 0;
 	text-align: center;
 	overflow: hidden;
+	display: none;
 }
 
 .work-title {
@@ -988,13 +989,23 @@ Portfolio
 	        transform: scale(1.1);
 }
 
+@keyframes slideOnDown{
+	0% {
+		display: block;
+		bottom: 0;
+	}
+	100% {
+		bottom: 50%;
+		opacity: 1;
+		z-index: 3;
+		-webkit-transform: translateY(50%);
+		-moz-transform: translateY(50%);
+		transform: translateY(50%);
+	}
+}
 .work-item:hover .work-caption {
-	bottom: 50%;
-	opacity: 1;
-	z-index: 3;
-	-webkit-transform: translateY(50%);
-	   -moz-transform: translateY(50%);
-	        transform: translateY(50%);
+		display: block;
+		animation: slideOnDown 1s forwards;
 }
 
 /* Work item white background */
@@ -1008,7 +1019,7 @@ Portfolio
 }
 
 .works-grid.works-hover-w .work-item:hover .work-image:after {
-	background: rgba(255, 255, 255, .8);
+	background: rgba(255, 255, 255, .9);
 }
 
 .works-grid.works-hover-g .work-image:after {

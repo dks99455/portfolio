@@ -8,4 +8,18 @@
 
 body {
     color: black;
+    user-select: none;
+}
+
+#application_header{
+    text-align: center;
+    margin: 50px;
+}
+
+.work-caption{
+    color: #666;
+}
+
+.codelinks{
+    margin: 10px;
 }
