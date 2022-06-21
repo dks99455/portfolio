@@ -1,10 +1,22 @@
-import React from 'react';
-// import NavBar from './components/NavBar.jsx';
-// import FrontPage from './components/FrontPage.jsx';
-// import About from './components/About.jsx';
-// import SoftwareDev from './components/SoftwareDev.jsx';
-// import Hobbies from './components/Hobbies.jsx';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import NavBar from './components/NavBar.jsx';
+import FrontPage from './components/FrontPage.jsx';
+import About from './components/About.jsx';
+import Portfolio from './components/Portfolio.jsx';
 
-export default function App() {
-  return <h1>Hello World</h1>;
+function App () {
+
+  return (
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<FrontPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
+
+export default App;
