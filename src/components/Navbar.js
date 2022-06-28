@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Drawer,
   AppBar,
@@ -15,7 +16,6 @@ import {
 } from "@mui/material";
 import {
   ArrowBack,
-  AssignmentInd,
   Home,
   Apps,
   ContactMail
@@ -24,11 +24,8 @@ import {
 const menuItems = [
   {
     listIcon: <Home />,
-    listText: "Home"
-  },
-  {
-    listIcon: <AssignmentInd />,
-    listText: "Resume"
+    listText: "Home",
+    listPath: "/"
   },
   {
     listIcon: <Apps />,
@@ -57,9 +54,9 @@ const Navbar = () => {
       height: "100%"
     },
     avatar: {
-      display: "block",
-      margin: "0.5rem auto"
-// adjust avatar icon
+      margin: "1rem auto",
+      height: "3rem",
+      width: "3rem"
     },
     listItem: {
       color: "tan"
@@ -72,7 +69,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-        <ListItem button key={key}>
+        <ListItem button key={key} component={Link} to={menuItems.listPath}>
           <ListItemIcon sx={useStyle.listItem}>{lsItem.listIcon}</ListItemIcon>
           <ListItemText sx={useStyle.listItem} primary={lsItem.listText} />
         </ListItem>
