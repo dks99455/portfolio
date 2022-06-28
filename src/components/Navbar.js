@@ -29,11 +29,13 @@ const menuItems = [
   },
   {
     listIcon: <Apps />,
-    listText: "Portfolio"
+    listText: "Portfolio",
+    listPath: "/portfolio"
   },
   {
     listIcon: <ContactMail />,
-    listText: "Contacts"
+    listText: "Contacts",
+    listPath: "/contacts"
   }
 ]
 
@@ -69,7 +71,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-        <ListItem button key={key} component={Link} to={menuItems.listPath}>
+        <ListItem button key={key} component={Link} to={lsItem.listPath}>
           <ListItemIcon sx={useStyle.listItem}>{lsItem.listIcon}</ListItemIcon>
           <ListItemText sx={useStyle.listItem} primary={lsItem.listText} />
         </ListItem>
