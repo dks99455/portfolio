@@ -7,7 +7,7 @@ import {
 } from "@mui/material";
 import Typed from "react-typed";
 
-const Header = () => {
+const Landing = () => {
 
   //CSS STYLES
   const useStyle = {
@@ -55,4 +55,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Landing;
