@@ -22,10 +22,8 @@ const Portfolio = () => {
     <Box component="div" sx={useStyle.mainContainer}>
       <Navbar />
       <Grid container justify="center">
-        <Itemcard useStyle={useStyle} />
-        <Itemcard useStyle={useStyle} />
-        <Itemcard useStyle={useStyle} />
-        <Itemcard useStyle={useStyle} />
+        <Itemcard useStyle={useStyle} /> {/* This one will be the Hic Svnt Dracones */}
+        <Itemcard useStyle={useStyle} /> {/* This one will be a new project */}
       </Grid>
     </Box>
   )

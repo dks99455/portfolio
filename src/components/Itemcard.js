@@ -34,15 +34,15 @@ const Itemcard = (props) => {
             <CardActions>
               <Button component="span" size="small" color="primary" onClick={(ev) => {
                 ev.stopPropagation();
-                console.log("share")
+                console.log("Github Link")
               }}>
-                Share
+                Github
               </Button>
               <Button component="span" size="small" color="primary" onClick={(ev) => {
                 ev.stopPropagation();
-                console.log("livedemo")
+                console.log("About the Project Modal")
               }}>
-                Live Demo
+                About
               </Button>
             </CardActions>
         </CardActionArea>
