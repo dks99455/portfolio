@@ -4,7 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import "./App.css";
 import Home from "./components";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </>
