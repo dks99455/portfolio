@@ -19,13 +19,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
+        'service_pboswui',
         'template_poj5qnv',
         refForm.current,
-        'bm5mb7ZMTSY8bJq0r'
+        'bm5mb7ZMTSY8bJq0r',
+        'S9oJcZXvffdRYVidT7Pqu'
       )
       .then(
         () => {
+          console.log(refForm.current)
           alert('Message successfully sent!')
           window.location.reload(false)
         },
