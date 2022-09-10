@@ -32,8 +32,8 @@ const About = () => {
             idx={15}
           />
         </h1>
-        <p>Public good was what I was taught at a young age. I went to college at California State University Northridge, where I graduated with a BA in Philosophy. From there, I pursued a career with immigration services, and then later with the United States postal service. Ultimately, there was a lot of red tape with how I was allowed to help people, and being a civil servant wasn't all it was cracked up to be.</p>
-        <p>It was a different story at MnSoft Inc. I was exposed to the software development process, and the emphasis on optimization and quality assurance was refreshing.</p>
+        <p>For me, being a civil servant wasn't all it was cracked up to be. At an early age, my mentors taught me to lead through service, and my natural thought was to enter the federal workforce. While I enjoyed helping our citizens navigate through some bureaucratic red tape, the growth I was looking for could not be found in government.</p>
+        <p>I eventually found the growth I was looking for working on the quality assurance side of software retail. With only my drive to deliver, I quickly developed some technical know-how so that I could do the bug-finding, replicating, and technical reporting needed by our dev teams. And through it all, I discovered a passion for the software development process.</p>
         <p>Maecenas pharetra convallis posuere morbi leo urna. Venenatis cras sed felis eget. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Malesuada proin libero nunc consequat interdum varius. Senectus et netus et malesuada fames ac turpis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Velit aliquet sagittis id consectetur purus ut faucibus. Mi eget mauris pharetra et. Diam in arcu cursus euismod quis viverra nibh cras. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Facilisi nullam vehicula ipsum a arcu cursus vitae. Mauris rhoncus aenean vel elit. Tempor orci eu lobortis elementum. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
       </div>
 
