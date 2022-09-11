@@ -28,13 +28,15 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={'Hey, I\'m David'.split('')}
+            strArray={'Hi, my name\'s David'.split('')}
             idx={15}
           />
         </h1>
-        <p>For me, being a civil servant wasn't all it was cracked up to be. At an early age, my mentors taught me to lead through service, and my natural thought was to enter the federal workforce. While I enjoyed helping our citizens navigate through some bureaucratic red tape, the growth I was looking for could not be found in government.</p>
-        <p>I eventually found the growth I was looking for working on the quality assurance side of software retail. With only my drive to deliver, I quickly developed some technical know-how so that I could do the bug-finding, replicating, and technical reporting needed by our dev teams. And through it all, I discovered a passion for the software development process.</p>
-        <p>Maecenas pharetra convallis posuere morbi leo urna. Venenatis cras sed felis eget. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Malesuada proin libero nunc consequat interdum varius. Senectus et netus et malesuada fames ac turpis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Velit aliquet sagittis id consectetur purus ut faucibus. Mi eget mauris pharetra et. Diam in arcu cursus euismod quis viverra nibh cras. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Facilisi nullam vehicula ipsum a arcu cursus vitae. Mauris rhoncus aenean vel elit. Tempor orci eu lobortis elementum. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis.</p>
+        <p>I'm a self-competitive guy, and joining the federal workforce after university was unlike me. I enjoyed helping citizens navigate through the processes at both immigration services and afterwards at the postal service, but I found myself looking forward to the paycheck more than the experience.</p>
+        <p>Eventually I found the growth I was looking for in quality assurance. At MnSoft, we sold map updates and I had no background in computer science, so I quickly made some friends and developed the technical know-how needed to get the work done. I was regularly exposed to the software development process and contributing to the design, planning, and manual testing part of it. It was seriously fun, and I wanted to know more.</p>
+        <p>Fast forward to the middle of COVID, and I enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
+        <p>In 4 months, I went from introductory CompSci courses at college to a full understanding of the development process and its history.</p>
+        <p>Check out my portfolio to see what I can do.</p>
       </div>
 
       <div className='stage-cube-cont'>
