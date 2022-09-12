@@ -32,8 +32,7 @@ const About = () => {
             idx={15}
           />
         </h1>
-        <p>I'm a self-competitive guy, and joining the federal workforce after university was unlike me. I enjoyed helping citizens navigate through the processes at both immigration services and afterwards at the postal service, but I found myself looking forward to the paycheck more than the experience.</p>
-        <p>Eventually I found the growth I was looking for in quality assurance. At MnSoft, we sold map updates and I had no background in computer science, so I quickly made some friends and developed the technical know-how needed to get the work done. I was regularly exposed to the software development process and contributing to the design, planning, and manual testing part of it. It was seriously fun, and I wanted to know more.</p>
+        <p>It took a while to find my passion after college, but I found my initial path through quality assurance. At MnSoft, we sold software updates but I had no background in computer science, so I made some friends and picked up the know-how needed to get my work done. I was regularly exposed to the software development process and contributing to the design, planning, and manual testing part of it. It was seriously fun, and I wanted to know more.</p>
         <p>Fast forward to the middle of COVID, and I enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
         <p>In 4 months, I went from introductory CompSci courses at college to a full understanding of the development process and its history.</p>
         <p>Check out my portfolio to see what I can do.</p>
