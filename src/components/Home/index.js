@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
@@ -7,8 +6,8 @@ import { Loader } from 'react-loaders';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = 'David'.split('')
-  const jobArray = 'web developer'.split('')
+  const nameArray = 'David Sung'.split('')
+  const jobArray = 'Web Developer'.split('')
 
   useEffect(() => {
     setTimeout(() => {
@@ -21,12 +20,6 @@ const Home = () => {
     <div className='container home-page'>
       <div className='text-zone'>
         <h1>
-        <span className={letterClass}>H</span>
-        <span className={`${letterClass} _12`}>i,</span>
-        <br />
-        <span className={`${letterClass} _12`}>I</span>
-        <span className={`${letterClass} _12`}>'m</span>
-        <img src={LogoTitle} alt='developer' />
         <AnimatedLetters letterClass={letterClass}
         strArray={nameArray}
         idx={15} />
