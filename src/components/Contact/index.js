@@ -48,9 +48,6 @@ const Contact = () => {
             idx={15}
           />
         </h1>
-        <p>
-          LOREM IPSUM ATGEFAEWFAWEFAEW
-        </p>
         <div className='contact-form'>
           <form ref={refForm} onSubmit={sendEmail}>
             <ul>
