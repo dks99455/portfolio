@@ -1,3 +1,12 @@
+.pfLink {
+  text-decoration: none !important;
+  color: #ffd700;
+
+  &:hover {
+    color: yellow;
+  }
+}
+
 .stage-cube-cont {
   width: 60%;
   height: 100%;

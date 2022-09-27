@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -33,9 +34,9 @@ const About = () => {
           />
         </h1>
         <p>I found my initial passion for tech in quality assurance at MnSoft. With no background in computer science, I made some friends and picked up the know-how needed to replicate bugs and submit feature requests. I was regularly exposed to the software development process and wanted to delve deeper into it.</p>
-        <p>Fast forward to 2022, and I enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
-        <p>In a little over 5 months I went from taking introductory CompSci courses to a full understanding of the software development lifecycle.</p>
-        <p>Please see what I've worked on in my portfolio.</p>
+        <p>Fast forward to 2022, and I signed up for CompSci courses and later enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
+        <p>In a little over 8 months I went from only knowing the end-user side of things to a solid understanding of the entire development lifecycle.</p>
+        <p>Please check out the work in my <Link to='/portfolio' className='pfLink'>portfolio</Link>.</p>
       </div>
 
       <div className='stage-cube-cont'>
