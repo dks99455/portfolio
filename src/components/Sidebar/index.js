@@ -3,12 +3,12 @@ import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import LogoD from '../../assets/images/d.png';
 
 const Sidebar = () => (
   <div className='nav-bar'>
       <Link className='logo' to='/'>
-        HOME LOGO{/* <img src={} alt='logo' />
-        <img className='sub-logo' src={LogoSubtitle} alt='logosubtitle' /> */}
+        <img src={LogoD} alt='logo' />
       </Link>
       <nav>
         <NavLink exact='true' activeclassname='active' to='/'>
