@@ -28,14 +28,14 @@ const About = () => {
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={'Hi, my name\'s David'.split('')}
+            strArray={['Hi,', ' ', 'my', ' ', 'name\'s', ' ', 'David']}
             idx={15}
           />
         </h1>
         <p>I found my initial passion for tech in quality assurance at MnSoft. With no background in computer science, I made some friends and picked up the know-how needed to replicate bugs and submit feature requests. I was regularly exposed to the software development process and wanted to delve deeper into it.</p>
         <p>Fast forward to 2022, and I enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
         <p>In a little over 5 months I went from taking introductory CompSci courses to a full understanding of the software development lifecycle.</p>
-        <p>Please see my portfolio to check out what I've done.</p>
+        <p>Please see what I've worked on in my portfolio.</p>
       </div>
 
       <div className='stage-cube-cont'>

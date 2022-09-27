@@ -23,6 +23,7 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+  overflow: scroll;
 }
 
 .about-page,
@@ -41,7 +42,7 @@
     max-height: 90%;
 
     @media only screen and (max-width: 900px) {
-      top: 80%;
+      top: 90%;
       width: 70%;
     }
 
