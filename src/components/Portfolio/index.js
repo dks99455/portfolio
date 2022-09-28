@@ -25,6 +25,13 @@ const Portfolio = () => {
                   className="portfolio-image"
                   alt="portfolio"
                 />
+                <div className="content">
+                  <p className="title">{project.title}</p>
+                  <h4 className="description">{project.description}</h4>
+                  <button className="btn" onClick={() => window.open(project.url)}>
+                    View
+                  </button>
+                </div>
               </div>
             )
           })
