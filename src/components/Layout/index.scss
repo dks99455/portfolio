@@ -48,6 +48,14 @@
       margin-bottom: 0;
       position: relative;
       left: 10px;
+
+      @media only screen and (max-width: 900px) {
+        font-size: 40px;
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+
     }
 
     p {
