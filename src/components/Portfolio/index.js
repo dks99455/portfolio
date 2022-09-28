@@ -46,7 +46,7 @@ const Portfolio = () => {
       <h1 className='page-title'>
         <AnimatedLetters
           letterClass={letterClass}
-          strArray={"Portfolio".split("")}
+          strArray={["Software", " ", "Applications"]}
           idx={15}
         />
       </h1>

@@ -28,8 +28,8 @@ const Contact = () => {
       .then(
         () => {
           console.log(refForm.current)
-          alert('Message successfully sent!')
-//          window.location.reload(false)
+          alert('Thanks! I got your message and will respond within a couple business days.')
+          window.location.reload(false)
         },
         () => {
           alert('Failed to send the message, please try again')
