@@ -1,0 +1,16 @@
+{
+  "portfolio": [
+    {
+      "cover": "/projects/adjacentdoor/ad1.gif",
+      "title": "AdjacentDoor",
+      "description": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
+      "url": "http://google.com"
+    },
+    {
+      "cover": "/projects/adjacentdoor/ad1.gif",
+      "title": "AdjacentDoor",
+      "description": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
+      "url": "http://google.com"
+    }
+  ]
+}
