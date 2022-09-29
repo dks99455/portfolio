@@ -50,7 +50,7 @@ const Portfolio = () => {
           idx={15}
         />
       </h1>
-      <div>{renderPortfolio(portfolioData.portfolio)}</div>
+      {renderPortfolio(portfolioData.portfolio)}
     </div>
     <Loader type="line-scale" />
     </>
