@@ -12,9 +12,10 @@
 }
 
 .container {
+  max-width: none !important;
   width: 100%;
-  will-change: contents;
   height: 90%;
+  will-change: contents;
   position: absolute;
   opacity: 0;
   top: 5%;
