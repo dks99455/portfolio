@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <div className="content">
                   <p className="title">{project.title}</p>
                   <h4 className="description">{project.description}</h4>
-                  <Cardpage />
+                  <Cardpage cover={project.cover} title={project.title} description={project.description} index={index} />
                 </div>
               </div>
             )
