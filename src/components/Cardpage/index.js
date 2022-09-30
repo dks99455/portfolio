@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
+import './index.scss';
 
 const Cardpage = ({ cover, title, description, index }) => {
   const [show, setShow] = useState(false);
@@ -19,15 +20,19 @@ const Cardpage = ({ cover, title, description, index }) => {
       </Button>
 
       <Modal
+        dialogClassName='increase-width'
         show={show}
         onHide={handleClose}
-        size='xxl'
         centered
+        scrollable={true}
       >
-        <Modal.Header>
+        <Modal.Header closeButton>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{description}</Modal.Body>
+        <Modal.Body>
+          <img src={cover} alt='project example' className='img-fluid' />
+          {description}
+          </Modal.Body>
       </Modal>
     </>
   );
