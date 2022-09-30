@@ -3,6 +3,7 @@ import { Loader } from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json';
+import Cardpage from '../Cardpage';
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -28,9 +29,7 @@ const Portfolio = () => {
                 <div className="content">
                   <p className="title">{project.title}</p>
                   <h4 className="description">{project.description}</h4>
-                  <button className="btn" onClick={() => window.open(project.url)}>
-                    View
-                  </button>
+                  <Cardpage />
                 </div>
               </div>
             )
