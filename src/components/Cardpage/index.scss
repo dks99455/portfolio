@@ -1,4 +1,30 @@
 .increase-width {
   width: 85%;
   max-width: none !important;
+  text-align: center;
+
+  img {
+    width: 50%;
+    margin-bottom: 2%;
+    border: 1px solid black;
+
+    @media only screen and (max-width: 900px) {
+      width: 100%;
+    }
+  }
+
+  p {
+    padding-bottom: 1%;
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    padding-left: 60px;
+    width: 95%;
+  }
+}
+
+.modal-title {
+  font-size: 3rem;
+  font-weight: bolder;
 }

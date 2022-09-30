@@ -30,8 +30,15 @@ const Cardpage = ({ cover, title, description, index }) => {
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <img src={cover} alt='project example' className='img-fluid' />
-          {description}
+          <h2>INTRODUCTION</h2>
+          <p>{description}</p>
+          <img src={cover} alt='project example 1' className='img-fluid' />
+          <h2>PLANNING</h2>
+          <p>{description}</p>
+          <img src={cover} alt='project example 2' className='img-fluid' />
+          <h2>RESULT</h2>
+          <p>{description}</p>
+          <img src={cover} alt='project example 3' className='img-fluid' />
           </Modal.Body>
       </Modal>
     </>
