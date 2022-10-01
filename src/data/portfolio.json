@@ -3,57 +3,13 @@
     {
       "cover": "/projects/adjacentdoor/4.gif",
       "title": "AdjacentDoor",
-      "technologies": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
-      "description": "yadda yadda",
-      "description2": "yadda yadda",
-      "description3": "yadda yadda",
-      "pic1": "/projects/adjacentdoor/4.gif",
-      "pic2": "/projects/adjacentdoor/4.gif",
-      "pic3": "/projects/adjacentdoor/4.gif"
-    },
-    {
-      "cover": "/projects/adjacentdoor/4.gif",
-      "title": "AdjacentDoor",
-      "technologies": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
-      "description": "yadda yadda",
-      "description2": "yadda yadda",
-      "description3": "yadda yadda",
-      "pic1": "/projects/adjacentdoor/4.gif",
-      "pic2": "/projects/adjacentdoor/4.gif",
-      "pic3": "/projects/adjacentdoor/4.gif"
-    },
-    {
-      "cover": "/projects/adjacentdoor/4.gif",
-      "title": "AdjacentDoor",
-      "technologies": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
-      "description": "yadda yadda",
-      "description2": "yadda yadda",
-      "description3": "yadda yadda",
-      "pic1": "/projects/adjacentdoor/4.gif",
-      "pic2": "/projects/adjacentdoor/4.gif",
-      "pic3": "/projects/adjacentdoor/4.gif"
-    },
-    {
-      "cover": "/projects/adjacentdoor/4.gif",
-      "title": "AdjacentDoor",
-      "technologies": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
-      "description": "yadda yadda",
-      "description2": "yadda yadda",
-      "description3": "yadda yadda",
-      "pic1": "/projects/adjacentdoor/4.gif",
-      "pic2": "/projects/adjacentdoor/4.gif",
-      "pic3": "/projects/adjacentdoor/4.gif"
-    },
-    {
-      "cover": "/projects/adjacentdoor/4.gif",
-      "title": "AdjacentDoor",
-      "technologies": "React, Node, ExpressJS, PostgreSQL, Webpack, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
-      "description": "yadda yadda",
-      "description2": "yadda yadda",
-      "description3": "yadda yadda",
-      "pic1": "/projects/adjacentdoor/4.gif",
-      "pic2": "/projects/adjacentdoor/4.gif",
-      "pic3": "/projects/adjacentdoor/4.gif"
+      "technologies": "React, Node, PostgreSQL, AWS, MUI, Tailwind CSS, Moment.js, Grafana k6",
+      "description": "AdjacentDoor is an application with community interaction in mind. A user is placed into a default group based on their address at account creation, and the user can then join, create, and socialize with other groups based on location or specific interests.",
+      "description2": "Our client's requests for this application were initially too expansive for the one-week timeframe our team of 7 had to work with. Our first course of action was to whiteboard the entirety of the requests and get a rough estimate of what core features could be fit into the timeframe. We then assigned engineers to components based on complexity. My own role was to focus on the components that enabled the creating, joining, and finding of groups and to coordinate with the engineers in charge of the searchbar, messageboard, and database to ensure that users only had access to content on the website that they had access rights for.",
+      "description3": "In a week, my team delivered a fully functional full-stack application that our client was extremely pleased with. I was tasked to be the Software Architect for this project; a role I received no mentorship for and hadn't the faintest idea how to perform (with a 1 week deadline no less). But I quickly looked up the purpose of the role and wore that hat as best as I could by reading carefully through pull requests and making myself available for technical advice.",
+      "pic1": "/projects/adjacentdoor/1.gif",
+      "pic2": "/projects/adjacentdoor/2.gif",
+      "pic3": "/projects/adjacentdoor/3.gif"
     }
   ]
 }

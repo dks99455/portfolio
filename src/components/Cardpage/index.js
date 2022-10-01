@@ -3,11 +3,13 @@ import { Button } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap';
 import './index.scss';
 
-const Cardpage = ({ cover, title, description, index }) => {
+const Cardpage = (props) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const { title, description, description2, description3, pic1, pic2, pic3 } = props.project;
 
   return (
     <>
@@ -32,13 +34,13 @@ const Cardpage = ({ cover, title, description, index }) => {
         <Modal.Body>
           <h2>INTRODUCTION</h2>
           <p>{description}</p>
-          <img src={cover} alt='project example 1' className='img-fluid' />
+          <img src={pic1} alt='project example 1' className='img-fluid' />
           <h2>PLANNING</h2>
-          <p>{description}</p>
-          <img src={cover} alt='project example 2' className='img-fluid' />
+          <p>{description2}</p>
+          <img src={pic2} alt='project example 2' className='img-fluid' />
           <h2>RESULT</h2>
-          <p>{description}</p>
-          <img src={cover} alt='project example 3' className='img-fluid' />
+          <p>{description3}</p>
+          <img src={pic3} alt='project example 3' className='img-fluid' />
           </Modal.Body>
       </Modal>
     </>

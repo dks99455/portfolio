@@ -1,24 +1,33 @@
 .increase-width {
-  width: 85%;
+  width: 50%;
   max-width: none !important;
   text-align: center;
 
   img {
-    width: 50%;
+    width: 70%;
     margin-bottom: 2%;
     border: 1px solid black;
+    border-radius: 10px;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1200px) {
       width: 100%;
     }
   }
 
-  p {
-    padding-bottom: 1%;
-    font-size: 14px;
+  h2 {
+    padding-left: 15%;
+    text-align: left;
   }
 
-  @media only screen and (max-width: 900px) {
+  p {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 1%;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 1200px) {
     padding-left: 60px;
     width: 95%;
   }
