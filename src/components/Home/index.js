@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { Loader } from 'react-loaders';
+import theCrew from '../../assets/images/mnsoftcrew.jpeg';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -30,6 +31,12 @@ const Home = () => {
         </h1>
         <h2>And overall cool dude.</h2>
         <Link to='/contact' className='flat-button'>CONTACT ME</Link>
+      </div>
+      <div className='img-container'>
+        <img className='homepic' src={theCrew} alt='friends' />
+        <div className='middle'>
+          <div className='thatisme'>That's me. Second from the left.</div>
+        </div>
       </div>
     </div>
     <Loader type="line-scale" />
