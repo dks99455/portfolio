@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.1",
+    "gh-pages": "^4.0.0",
     "gsap-trial": "^3.11.0",
     "loaders.css": "^0.1.2",
     "react": "^18.2.0",
@@ -24,10 +25,11 @@
     "sass": "^1.54.6",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://dks99455.github.io/mywebsite",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "deploy": "gh-pages -d public",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
