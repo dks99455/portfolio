@@ -36,7 +36,7 @@ const About = () => {
         <p>I found my initial passion for tech in quality assurance at MnSoft. With no background in computer science, I made some friends and picked up the know-how needed to replicate bugs and submit feature requests. I was regularly exposed to the software development process and wanted to delve deeper into it.</p>
         <p>Fast forward to 2022, and I signed up for CompSci courses and later enrolled into Hack Reactor, a 13-week software engineering bootcamp consisting of over 1000 hours of full stack development in an AGILE environment.</p>
         <p>In a little over 8 months I went from only knowing the end-user side of things to a solid understanding of the entire development lifecycle.</p>
-        <p>Please check out the work in my <Link to='/portfolio' className='pfLink'>portfolio</Link>.</p>
+        <p>Please check out the work in my <Link to='/projects' className='pfLink'>portfolio</Link>.</p>
       </div>
 
       <div className='stage-cube-cont'>
