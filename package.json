@@ -25,7 +25,7 @@
     "sass": "^1.54.6",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://dks99455.github.io/mywebsite",
+  "homepage": "http://dks99455.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
