@@ -29,7 +29,6 @@ const Contact = () => {
         () => {
           console.log(refForm.current)
           alert('Thanks! I got your message and will respond within a couple business days.')
-          window.location.reload(false)
         },
         () => {
           alert('Failed to send the message, please try again')
