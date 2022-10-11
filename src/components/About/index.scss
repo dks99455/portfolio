@@ -70,44 +70,6 @@
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
   }
-
-  @media only screen and (max-width: 900px) {
-    div {
-      position: absolute;
-      width: 150px;
-      height: 150px;
-      border: 1px solid #817600;
-      background: rgba(0, 0, 0, 0.7);
-      font-size: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .face1 {
-      transform: translateZ(75px);
-    }
-
-    .face2 {
-      transform: rotateY(90deg) translateZ(75px);
-    }
-
-    .face3 {
-      transform: rotateY(90deg) rotateX(90deg) translateZ(75px);
-    }
-
-    .face4 {
-      transform: rotateY(180deg) rotateZ(90deg) translateZ(75px);
-    }
-
-    .face5 {
-      transform: rotateY(-90deg) rotateZ(90deg) translateZ(75px);
-    }
-
-    .face6 {
-      transform: rotateX(-90deg) translateZ(75px);
-    }
-  }
 }
 
 @keyframes spincube {
