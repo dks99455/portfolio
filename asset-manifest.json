@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.1d4cac99.css",
-    "main.js": "/mywebsite/static/js/main.a627ee2f.js",
-    "static/js/787.1ed0c42c.chunk.js": "/mywebsite/static/js/787.1ed0c42c.chunk.js",
-    "static/media/HussarBoldWeb.woff": "/mywebsite/static/media/HussarBoldWeb.faaad004d3fec9f6b77c.woff",
-    "static/media/mnsoftcrew.jpeg": "/mywebsite/static/media/mnsoftcrew.901cc7a2af5e9051ba10.jpeg",
-    "static/media/helvetica-neu.ttf": "/mywebsite/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/d.png": "/mywebsite/static/media/d.3a1d22b39af9c89a13f7.png",
-    "index.html": "/mywebsite/index.html",
-    "main.1d4cac99.css.map": "/mywebsite/static/css/main.1d4cac99.css.map",
-    "main.a627ee2f.js.map": "/mywebsite/static/js/main.a627ee2f.js.map",
-    "787.1ed0c42c.chunk.js.map": "/mywebsite/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f9e302d2.css",
+    "main.js": "/portfolio/static/js/main.3dd0c85c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/HussarBoldWeb.woff": "/portfolio/static/media/HussarBoldWeb.faaad004d3fec9f6b77c.woff",
+    "static/media/mnsoftcrew.jpeg": "/portfolio/static/media/mnsoftcrew.901cc7a2af5e9051ba10.jpeg",
+    "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/d.png": "/portfolio/static/media/d.3a1d22b39af9c89a13f7.png",
+    "index.html": "/portfolio/index.html",
+    "main.f9e302d2.css.map": "/portfolio/static/css/main.f9e302d2.css.map",
+    "main.3dd0c85c.js.map": "/portfolio/static/js/main.3dd0c85c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d4cac99.css",
-    "static/js/main.a627ee2f.js"
+    "static/css/main.f9e302d2.css",
+    "static/js/main.3dd0c85c.js"
   ]
 }
