@@ -4,6 +4,7 @@
   position: absolute;
   background: linear-gradient(to left bottom, black, #181818, #303030, gray);
   overflow: scroll;
+  overscroll-behavior: contain;
 }
 
 .top-tags {
