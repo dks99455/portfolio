@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   overscroll-behavior: contain;
+  background: linear-gradient(to left bottom, black, #181818, #303030, gray);
 }
 
 body {
